@@ -8,11 +8,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/arthurweinmann/go-ai-sdk/pkg/openai"
-	"github.com/arthurweinmann/go-ai-sdk/pkg/wcohere"
 	api "github.com/cohere-ai/cohere-go/v2"
 	cohere "github.com/cohere-ai/cohere-go/v2"
 	cohereclient "github.com/cohere-ai/cohere-go/v2/client"
+	"github.com/guaidashu/go-ai-sdk/pkg/openai"
+	"github.com/guaidashu/go-ai-sdk/pkg/wcohere"
 )
 
 type Embedder struct {

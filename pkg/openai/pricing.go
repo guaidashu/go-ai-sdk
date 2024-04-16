@@ -10,6 +10,7 @@ var PricingPer1000TokensPerModel = map[Model][]float64{
 	GPT4_8k_0613:             {0.03, 0.06},
 	GPT4_32k:                 {0.06, 0.12},
 	GPT4_32k_0613:            {0.06, 0.12},
+	Gpt4Turbo:                {0.03, 0.06},
 
 	GPT3_5_turbo_4k:      {0.0015, 0.0020},
 	GPT3_5_turbo_4k_0301: {0.0015, 0.0020},

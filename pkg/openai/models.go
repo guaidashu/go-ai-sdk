@@ -15,6 +15,8 @@ const (
 
 	GPT4_8k Model = "gpt-4"
 
+	Gpt4Turbo Model = "gpt-4-turbo"
+
 	GPT4_8k_0613 Model = "gpt-4-0613"
 
 	GPT4_32k Model = "gpt-4-32k"
@@ -60,7 +62,7 @@ func (m Model) GetContextLength() ContextLength {
 		panic("Model does not exist or the context length does not apply to it (example: DallE)")
 	case Text_Embedding_Ada_2_8k:
 		return Context8K
-	case GPT4_8k, GPT4_8k_0613:
+	case GPT4_8k, GPT4_8k_0613, Gpt4Turbo:
 		return Context8K
 	case GPT4_32k, GPT4_32k_0613:
 		return Context32K
@@ -101,5 +103,7 @@ func (m Model) GetSimilarWithNextContextLength() (bool, Model) {
 		return false, ""
 	case CodeDavinci2_8k:
 		return false, ""
+	case Gpt4Turbo:
+		return true, Gpt4Turbo
 	}
 }

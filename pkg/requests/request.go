@@ -65,7 +65,7 @@ func Send(r *Request) error {
 	req.Header.Set("Accept", "application/json")
 
 	if req.Header.Get("User-Agent") == "" {
-		req.Header.Set("User-Agent", "github.com/arthurweinmann/go-ai-sdk")
+		req.Header.Set("User-Agent", "github.com/guaidashu/go-ai-sdk")
 	}
 
 	resp, err := (&http.Client{

@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/arthurweinmann/go-ai-sdk/pkg/requests"
+	"github.com/guaidashu/go-ai-sdk/pkg/requests"
 )
 
 var Err429 = errors.New("ratelimit or overload")

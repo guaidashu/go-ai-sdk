@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/arthurweinmann/go-ai-sdk/pkg/openai/pythontool"
+	"github.com/guaidashu/go-ai-sdk/pkg/openai/pythontool"
 )
 
 // GetMaxRemainingTokens uses openai tiktoken to compute the number of tokens and thus you need to have python3 installed

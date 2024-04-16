@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/arthurweinmann/go-ai-sdk/pkg/openai"
-	"github.com/arthurweinmann/go-ai-sdk/pkg/wcohere"
+	"github.com/guaidashu/go-ai-sdk/pkg/openai"
+	"github.com/guaidashu/go-ai-sdk/pkg/wcohere"
 )
 
 func TestSetup(t *testing.T) {

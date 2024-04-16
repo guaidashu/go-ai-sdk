@@ -54,17 +54,17 @@ You can contribute to this project in multiple ways:
 
 # Documentation
 
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/arthurweinmann/go-ai-sdk)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/guaidashu/go-ai-sdk)
 
 Documentation for the project can be viewed online without installing this package by using the excellent GoDoc site here:
-[https://pkg.go.dev/github.com/arthurweinmann/go-ai-sdk](https://pkg.go.dev/github.com/arthurweinmann/go-ai-sdk)
+[https://pkg.go.dev/github.com/guaidashu/go-ai-sdk](https://pkg.go.dev/github.com/guaidashu/go-ai-sdk)
 
 You may explore directories, for example the OpenAI one:
-[https://pkg.go.dev/github.com/arthurweinmann/go-ai-sdk/pkg/openai](https://pkg.go.dev/github.com/arthurweinmann/go-ai-sdk/pkg/openai)
+[https://pkg.go.dev/github.com/guaidashu/go-ai-sdk/pkg/openai](https://pkg.go.dev/github.com/guaidashu/go-ai-sdk/pkg/openai)
 
 # How to use
 
-Import this golang module with `go get -u github.com/arthurweinmann/go-ai-sdk`.
+Import this golang module with `go get -u github.com/guaidashu/go-ai-sdk`.
 
 ## Universal Interface
 
@@ -72,7 +72,7 @@ Import the universal interfaces package into your code:
 
 ```go
 import (
-	"github.com/arthurweinmann/go-ai-sdk/pkg/uni"
+	"github.com/guaidashu/go-ai-sdk/pkg/uni"
 )
 ```
 
@@ -204,7 +204,7 @@ You may initialize OpenAI's sdk with a default API key. It is optional:
 package main
 
 import (
-    "github.com/arthurweinmann/go-ai-sdk/pkg/openai"
+    "github.com/guaidashu/go-ai-sdk/pkg/openai"
 )
 
 func main() {
@@ -221,7 +221,7 @@ Here is an example on how to use the new functions calls in the chat completion 
 package main
 
 import (
-	"github.com/arthurweinmann/go-ai-sdk/pkg/openai"
+	"github.com/guaidashu/go-ai-sdk/pkg/openai"
 	"github.com/davecgh/go-spew/spew"
 )
 
@@ -334,7 +334,7 @@ package main
 import (
 	"fmt"
 	"log"
-    "github.com/arthurweinmann/go-ai-sdk/pkg/openai"
+    "github.com/guaidashu/go-ai-sdk/pkg/openai"
 )
 
 func main() {
@@ -389,7 +389,7 @@ package main
 import (
 	"fmt"
 	"log"
-    "github.com/arthurweinmann/go-ai-sdk/pkg/openai"
+    "github.com/guaidashu/go-ai-sdk/pkg/openai"
 )
 
 func main() {
@@ -409,7 +409,7 @@ You first have to initialize Google Natural Language's sdk with your API key:
 package main
 
 import (
-    "github.com/arthurweinmann/go-ai-sdk/pkg/googlenl"
+    "github.com/guaidashu/go-ai-sdk/pkg/googlenl"
 )
 
 func main() {
@@ -429,7 +429,7 @@ import (
     "fmt"
     "log"
     "context"
-    "github.com/arthurweinmann/go-ai-sdk/pkg/googlenl"
+    "github.com/guaidashu/go-ai-sdk/pkg/googlenl"
 )
 
 func main() {
@@ -466,7 +466,7 @@ func main() {
 First, import the package into your Go code:
 
 ```go
-import "github.com/arthurweinmann/go-ai-sdk/pkg/hackernews"
+import "github.com/guaidashu/go-ai-sdk/pkg/hackernews"
 ```
 
 ### User
@@ -537,7 +537,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/arthurweinmann/go-ai-sdk/pkg/hackernews"
+	"github.com/guaidashu/go-ai-sdk/pkg/hackernews"
 )
 
 func main() {
@@ -614,7 +614,7 @@ package main
 import (
 	"fmt"
 	"log"
-    "github.com/arthurweinmann/go-ai-sdk/pkg/wikipedia"
+    "github.com/guaidashu/go-ai-sdk/pkg/wikipedia"
 )
 
 func main() {
@@ -689,7 +689,7 @@ Also, there's insufficient documentation at the moment on how to count tokens fo
 
 # Contact
 
-If you have any issues or feature requests, please open an issue on the [GitHub repository](https://github.com/arthurweinmann/go-ai-sdk/issues).
+If you have any issues or feature requests, please open an issue on the [GitHub repository](https://github.com/guaidashu/go-ai-sdk/issues).
 
 # License
 

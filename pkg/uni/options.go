@@ -1,6 +1,6 @@
 package uni
 
-import "github.com/arthurweinmann/go-ai-sdk/pkg/openai"
+import "github.com/guaidashu/go-ai-sdk/pkg/openai"
 
 type withOpenAIOption struct {
 	APIKey string
