@@ -2,3 +2,5 @@ test/credentials.json
 build/
 notes.md
 arthur/
+.idea
+.vscode
